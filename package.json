@@ -3,9 +3,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "node api.js && vite --port 3000",
-    "start": "node api.js && vite --port 3000",
-    "build": "node api.js && vite build && tsc",
+    "dev": "vite --port 3000",
+    "start": "vite --port 3000",
+    "build": "vite build && tsc",
     "serve": "vite preview",
     "test": "vitest run",
     "lint": "eslint",
